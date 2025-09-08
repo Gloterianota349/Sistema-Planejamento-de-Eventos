@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 40px;
+}
+
+
+.left-section,
+.right-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.notification {
+    margin-left: 30px;
+    position: relative;
+}
+
+.right-section span {
+    color: white;
+    font-size: 16px;
+}
